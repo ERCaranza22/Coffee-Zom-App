@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!--text view for the information-->
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:text="Welcome to the Coffee Zom, on where you can customize your own coffee of your choice.
+The function is basically easy to use, just make sure to carefully choose what type of coffee you actually want, if you want it just light, normal, or strong type of coffee.
+The other two in which adding up sugar and milk, you can choose if you want to choose just either less or the normal amount for your own choice.
+If you already understand the basic controls, you can now close this one and goodluck on customizing your own coffee."
+        android:textSize="20sp" />
+
+    <!--the close button after reading the popup information-->
+    <Button
+        android:id="@+id/closeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infoText"
+        android:layout_centerHorizontal="true"
+        android:text="Close" />
+
+
+</LinearLayout>
